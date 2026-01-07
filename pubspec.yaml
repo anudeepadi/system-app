@@ -1,0 +1,68 @@
+name: system_app
+description: SYSTEM - Control Your Mac From Anywhere. A futuristic remote control app for macOS.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # WebSocket communication
+  web_socket_channel: ^2.4.0
+
+  # HTTP for REST API
+  http: ^1.1.0
+
+  # State management
+  provider: ^6.1.1
+
+  # UI components
+  cupertino_icons: ^1.0.6
+  lucide_icons: ^0.257.0
+  google_fonts: ^6.1.0
+
+  # Charts & Visualization
+  fl_chart: ^0.69.0
+
+  # Visual Effects
+  glassmorphism: ^3.0.0
+
+  # Utilities
+  intl: ^0.18.1
+
+  # Local storage for auth persistence
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+# App Icon Configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#0A0E14"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+  windows:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+  macos:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
