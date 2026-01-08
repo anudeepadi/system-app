@@ -140,6 +140,10 @@ class SystemTextStyles {
   static TextStyle get uiXLarge => ui.copyWith(fontSize: 20, fontWeight: FontWeight.w600);
   static TextStyle get uiHeadline => ui.copyWith(fontSize: 24, fontWeight: FontWeight.bold);
 
+  // Display styles (for large headings)
+  static TextStyle get displayLarge => ui.copyWith(fontSize: 32, fontWeight: FontWeight.bold);
+  static TextStyle get displayXLarge => ui.copyWith(fontSize: 40, fontWeight: FontWeight.bold);
+
   // Label styles
   static TextStyle get labelSmall => uiSmall.copyWith(
         color: SystemColors.textMutedDark,
