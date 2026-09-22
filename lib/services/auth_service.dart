@@ -60,7 +60,7 @@ class ConnectionConfig {
   /// Default configuration for development
   static ConnectionConfig get defaults => ConnectionConfig(
         serverUrl: 'ws://192.168.18.49:3001',
-        token: '655dca3cc3c7fb6c6003d2001f0fcbcd0b59c82b7c7da13b92b71d408d0a639b',
+        token: '',
         personalOsUrl: 'http://192.168.18.49:8765',
         personalOsToken: 'test-token-12345',
         rememberMe: true,

@@ -18,7 +18,7 @@ class _ConnectScreenState extends State<ConnectScreen> {
   // Pre-configured for your local network
   final _urlController = TextEditingController(text: 'ws://192.168.18.49:3001');
   final _tokenController = TextEditingController(
-    text: '655dca3cc3c7fb6c6003d2001f0fcbcd0b59c82b7c7da13b92b71d408d0a639b',
+    text: '',
   );
   bool _isLoading = false;
   String? _error;
